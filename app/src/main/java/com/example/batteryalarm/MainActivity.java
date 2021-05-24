@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
                 if( level>=95)
                 ringtone.play();
-                if(level>=20)
-                    ringtone.play();
+               else if(level<=20)
+                   ringtone.play();
 
 
                 getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,R.color.actionbar));
